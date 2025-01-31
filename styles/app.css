@@ -478,3 +478,35 @@ li {
     color: #0D0D0D;
     
 }
+.app-section {
+    margin-top: 120px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #fdc55e12 73.18%);
+
+}
+
+.order-by-app {
+    display: flex;
+    align-items: center;
+}
+
+.app-section .leftside-content p {
+    width: 500px;
+}
+
+.app-section .leftside-content .download-btn {
+    display: flex;
+    gap: 27px;
+}
+
+.app-section .rightside-pic img {
+    position: relative;
+}
+
+.app-section .rightside-pic img:after {
+    content: "";
+    position: absolute;
+    background-image: url(../images/SeekPng.png);
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+}
